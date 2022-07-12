@@ -1,0 +1,13 @@
+/*configurações gerais, o * significa q esta pegando todos os elementos da pagina*/
+
+*{
+    /* resetando as configuraçoes q vem por padrao np navegador*/
+    margin: 0; /*espaçamento externo*/
+    padding: 0; /*espaçamento interno*/
+
+    /*serve para usar o design responsivo*/
+    box-sizing: border-box;
+
+    /*Aplicando fonte em tudo*/
+    font-family: 'Open Sans', sans-serif;
+}

@@ -20,6 +20,13 @@
     
     <!--Para o google saber as palavras-chaves quando for pesquisar-->
     <meta name="keywords" content="palavra-chave,do,meu,site">
+
+    <!--fonte da letra pelo google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <!--Incluindo link de estilo para uso css, rel -e pra mostrar q esta trabalhando com folha de estilo-->
+    <link rel="stylesheet" href="estilo/style.css">
      
     <!--Titulo-->
     <title>Projeto 01</title>
@@ -146,13 +153,20 @@
             <div class='w50'>
 
                 <h2 class='title'>Serviços</h2>
-                <div class=''>
+                <div class='servicos'>
                 <ul>
-
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quo incidunt laudantium distinctio nostrum recusandae libero nemo impedit. Pariatur ab quibusdam excepturi ad, tempora animi harum eligendi in sit minima?</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quo incidunt laudantium distinctio nostrum recusandae libero nemo impedit. Pariatur ab quibusdam excepturi ad, tempora animi harum eligendi in sit minima?</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quo incidunt laudantium distinctio nostrum recusandae libero nemo impedit. Pariatur ab quibusdam excepturi ad, tempora animi harum eligendi in sit minima?</li>
                 </ul>
             </div><!--w50-->
         </div><!--center-->
     </section>
+    <footer>
+        <div class='center'>
+            <p>Todos os direitos reservados/1</p>
+        </div>
+    </footer>
 
 </body>
 </html>
